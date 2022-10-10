@@ -10,7 +10,7 @@ public class Parallax : MonoBehaviour
     [SerializeField] Vector2 parallaxEffectMultiplier;
 
     float textureUnitSizeX;
-    //Test
+
     void Start()
     {
         cameraTransform = Camera.main.transform;

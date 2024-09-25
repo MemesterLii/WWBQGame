@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR // => Ignore from here to next endif if not in editor
+using UnityEditor;
 using UnityEditorInternal;
+#endif
 using UnityEngine;
 
 public class KillBorder : MonoBehaviour
